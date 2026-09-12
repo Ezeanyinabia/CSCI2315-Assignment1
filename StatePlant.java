@@ -6,7 +6,7 @@ public class StatePlant {
         
         State s = new State();  
 
-        s.read_input();         
+        s.read_input(scanner);         
 
         s.calc_plant();         
 

@@ -18,6 +18,7 @@ public class State {
     public int getPlantY() { return plantY; }
     public void setPlantY(int plantY) { this.plantY = plantY; }
 
+    
     public void read_input(Scanner scanner) {
         for (int i = 0; i < 4; i++) {
             boolean valid = false;
